@@ -9,7 +9,7 @@ Platzom es un idioma inventado para el [Curso de fundamentos de JavaScript](http
 - Si la palabra traducida tiene 10 o más letras, se debe partir a la mitad y unir con un guión del medio
 - Si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra intercalando mayúsculas y minúsculas
  
-##Instalación 
+## Instalación 
 
 ``` 
 npm install platzom
@@ -27,10 +27,10 @@ platzom("abecedario") //abece-dario
 platzom("sometemos") //SoMeTeMoS
 ``` 
 
-##Créditos
+## Créditos
 
 - [Daniel Pulla] (https://twitter.com/daniepulla)
 
-##Licencia
+## Licencia
 
 [MIT] (https://opensource.org/licenses/MIT)
