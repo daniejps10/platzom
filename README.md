@@ -29,8 +29,8 @@ platzom("sometemos") //SoMeTeMoS
 
 ## Créditos
 
-- [Daniel Pulla] (https://twitter.com/daniepulla)
+- [Daniel Pulla](https://twitter.com/daniepulla)
 
 ## Licencia
 
-[MIT] (https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT)
