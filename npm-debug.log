@@ -43,13 +43,13 @@
 21 silly publish      'babel-preset-env': '^1.6.0',
 21 silly publish      chai: '^4.1.1',
 21 silly publish      mocha: '^3.5.0' },
-21 silly publish   readme: '# Arcadapp\n\nPlatzom es un idioma inventado para el [Curso de fundamentos de JavaScript](https://platzi.com/js) de [Platzi](https://platzi.com), el mejor lugar de educación online\n\n## Descripción del idioma\n\n- Si la palabra termina en "ar", se le quitan esos caracteres\n- Si la palabra inicia con Z, se le añade "pe" al final\n- Si la palabra traducida tiene 10 o más letras, se debe partir a la mitad y unir con un guión del medio\n- Si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra intercalando mayúsculas y minúsculas\n \n##Instalación \n\n``` \nnpm install platzom\n```\n\n## Uso\n\n```\nimport platzom from \'platzom\'\n\nplatzom("Programar") //Program\nplatzom("Zorro") //Zorrope\nplatzom("Zarpar") //Zarppe\nplatzom("abecedario") //abece-dario\nplatzom("sometemos") //SoMeTeMoS\n``` \n\n##Créditos\n\n- [Daniel Pulla] (https://twitter.com/daniepulla)\n\n##Licencia\n\n[MIT] (https://opensource.org/licenses/MIT)',
+21 silly publish   readme: '# Arcadapp\n\nPlatzom es un idioma inventado para el [Curso de fundamentos de JavaScript](https://platzi.com/js) de [Platzi](https://platzi.com), el mejor lugar de educación online\n\n## Descripción del idioma\n\n- Si la palabra termina en "ar", se le quitan esos caracteres\n- Si la palabra inicia con Z, se le añade "pe" al final\n- Si la palabra traducida tiene 10 o más letras, se debe partir a la mitad y unir con un guión del medio\n- Si la palabra original es un palíndromo, ninguna regla anterior cuenta y se devuelve la misma palabra intercalando mayúsculas y minúsculas\n \n## Instalación \n\n``` \nnpm install platzom\n```\n\n## Uso\n\n```\nimport platzom from \'platzom\'\n\nplatzom("Programar") //Program\nplatzom("Zorro") //Zorrope\nplatzom("Zarpar") //Zarppe\nplatzom("abecedario") //abece-dario\nplatzom("sometemos") //SoMeTeMoS\n``` \n\n## Créditos\n\n- [Daniel Pulla](https://twitter.com/daniepulla)\n\n## Licencia\n\n[MIT](https://opensource.org/licenses/MIT)',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: '0fb9d110c4ae3fdcedc880a7094a78379c0bf8a1',
+21 silly publish   gitHead: '00edb5142fd73750085f192cd77437458f15075b',
 21 silly publish   bugs: { url: 'https://github.com/daniejps10/platzom/issues' },
 21 silly publish   homepage: 'https://github.com/daniejps10/platzom#readme',
 21 silly publish   _id: 'platzom@0.1.0',
-21 silly publish   _shasum: '65a65d38a4f8a5830aa9287dd1cc1cbcef1c7c9e',
+21 silly publish   _shasum: '95bbe5b0093b42f28d46fa0ca53838a42ecb6640',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name platzom
@@ -68,22 +68,22 @@
 29 silly publish uploading /home/ups/.npm/platzom/0.1.0/package.tgz
 30 verbose request uri https://registry.npmjs.org/platzom
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 10:32:26 AM
+32 info attempt registry request try #1 at 10:51:33 AM
 33 verbose request using bearer token for auth
-34 verbose request id ecd240ba6d55ab9c
+34 verbose request id 994804f904fa8a8a
 35 http request PUT https://registry.npmjs.org/platzom
 36 http 403 https://registry.npmjs.org/platzom
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '101',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Thu, 17 Aug 2017 15:32:26 GMT',
+37 verbose headers   date: 'Thu, 17 Aug 2017 15:51:33 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-mia1322-MIA',
+37 verbose headers   'x-served-by': 'cache-atl6223-ATL',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1502983946.419027,VS0,VE385',
+37 verbose headers   'x-timer': 'S1502985093.487528,VS0,VE432',
 37 verbose headers   vary: 'Accept-Encoding, Accept' }
 38 verbose request invalidating /home/ups/.npm/registry.npmjs.org/platzom on PUT
 39 error publish Failed PUT 403
